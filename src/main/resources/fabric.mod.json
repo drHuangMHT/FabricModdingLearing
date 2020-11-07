@@ -3,10 +3,10 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "DHTTestmod",
+  "description": "This is a mod of my fabric modding learning.",
   "authors": [
-    "Me!"
+    "Dr_Huang_MHT"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.dht.testmod.dhttestmod"
     ]
   },
   "mixins": [
