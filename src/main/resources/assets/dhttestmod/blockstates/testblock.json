@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "parent": {
+      "model": "block/iron_block"
+    }
+  }
+}

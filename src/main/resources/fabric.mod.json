@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dhttestmod",
   "version": "${version}",
 
-  "name": "DHTTestmod",
+  "name": "dhttestmod",
   "description": "This is a mod of my fabric modding learning.",
   "authors": [
     "Dr_Huang_MHT"
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dhttestmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dhttestmod.mixins.json"
   ],
 
   "depends": {
