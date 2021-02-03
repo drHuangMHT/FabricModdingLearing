@@ -15,7 +15,7 @@ public class dhttestmod implements ModInitializer {
 
 	private static final Item testitem = new testitemItem(new Item.Settings() .group(ItemGroup.MATERIALS) .maxCount(16));
 	private static final Item testfood = new testfoodItem(new Item.Settings() .group(ItemGroup.FOOD) .maxCount(64));
-	private static final Block testblock = new testblockBlock(FabricBlockSettings.of(Material.METAL));
+	private static final Block testblock = new testblockBlock(FabricBlockSettings.of(Material.WOOD));
 
 
 	@Override
@@ -27,8 +27,7 @@ public class dhttestmod implements ModInitializer {
 
 		Registry.register(Registry.ITEM, new Identifier("dhttestmod", "testitem"), testitem);
 		Registry.register(Registry.ITEM, new Identifier("dhttestmod", "testfood"), testfood);
-		Registry.register(Registry.BLOCK, new Identifier("dhttestmod", "testblock"), testblock);
-		Registry.register(Registry.ITEM, new Identifier("dhttestmod","testblock"), new BlockItem(testblock, new Item.Settings() .group(ItemGroup.BUILDING_BLOCKS) .maxCount(64)));
+
 
 		System.out.println("Hello Fabric world!");
 		System.out.println("You've successfully installed this test mod if you see this message.");
